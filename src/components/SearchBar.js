@@ -36,8 +36,12 @@ function SearchBar() {
       {moviesData.map((movie) => (
         <button key={movie.imdbID}>
           <div>
-            <img src={movie.Poster} alt={movie.Title} />
-            {movie.Title}
+            <div>
+                <img src={movie.Poster} alt={movie.Title} />
+            </div>
+            <div>
+                {movie.Title}
+            </div>
          </div>
         </button>
       ))}
