@@ -15,12 +15,14 @@ function TrendingMovies() {
       <>
       <h2>TrendingMovies</h2>
       <div className="movies-container">
+        <button>
         {results.map((result) => (
           <div key={result.id} className="movie-card">
             <img src={`https://image.tmdb.org/t/p/w780/${result.poster_path}`} alt=''/>
             <h3>{result.original_title}</h3>
           </div>
         ))}
+        </button>
       </div>
     </>
     </div>

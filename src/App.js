@@ -3,7 +3,7 @@ import TrendingMovies from './TrendingMovies'
 import UpcomingMovies from './UpcomingMovies'
 import NowPlaying from './NowPlaying'
 import TopRatedMovies from './TopRated'
-import "./App.css"
+import "./display.css"
 
 function App() {
   return (
