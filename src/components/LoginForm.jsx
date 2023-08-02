@@ -1,12 +1,14 @@
+// LoginForm.jsx
 import React, { useState } from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../firebase';
-import './formStyles.css';
+import { useNavigate } from 'react-router-dom';
 
 const LoginForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loginSuccess, setLoginSuccess] = useState(false);
+  const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -15,6 +17,7 @@ const LoginForm = () => {
       // Sign in the user with email and password
       await signInWithEmailAndPassword(auth, email, password);
       setLoginSuccess(true);
+      navigate('/dashboard'); // Redirect to the dashboard page
     } catch (error) {
       console.error('Error during login:', error);
     }
