@@ -1,5 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import AppRouter from './components/AppRouter';
+import Navigation from './components/Navigation';
 
 const App = () => {
   return (
@@ -10,6 +12,6 @@ const App = () => {
       </div>
     </Router>
   );
-}
+};
 
 export default App;
