@@ -17,4 +17,7 @@ function MovieReview() {
     <div>
       <form onSubmit={handleSubmit} className="review-form">
         <div className="form-group">
-          <label htmlFor="username">Username:</label>
+                    <label htmlFor="username">Username:</label>
+                  {/* Input field for username with onChange event to update the username in formData */}
+          <input type="text" id="username" name="username" value={formData.username} onChange={(e) => setFormData({ ...formData, username: e.target.value })} />
+        </div>
