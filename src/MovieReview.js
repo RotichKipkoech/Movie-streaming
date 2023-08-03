@@ -22,3 +22,6 @@ function MovieReview() {
             <input type="text" id="username" name="username" value={formData.username} onChange={(e) => setFormData({ ...formData, username: e.target.value })} />
         </div>
         
+        <div className="form-group">
+          <label htmlFor="review">Review:</label>
+          {/* Input field for review with onChange event to update the review in formData */}
