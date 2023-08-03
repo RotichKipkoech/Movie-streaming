@@ -27,3 +27,9 @@ function MovieReview() {
             {/* Input field for review with onChange event to update the review in formData */}
          <textarea id="review" name="review" value={formData.review} onChange={(e) => setFormData({ ...formData, review: e.target.value })} />
         </div>
+        
+        <button type="submit" className="submit-button">Submit</button>
+      </form>
+    </div>
+  )
+}
