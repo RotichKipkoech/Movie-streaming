@@ -33,3 +33,5 @@ function MovieReview() {
     </div>
   )
 }
+
+export default MovieReview;
