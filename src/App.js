@@ -1,4 +1,16 @@
 
+import Main from "./Main";
+import { BrowserRouter as Router } from 'react-router-dom';
+function App() {
+  return (
+    <Router>
+    <div className="App">
+      <Main/>
+
+    </div>
+    </Router>
+
+
 import React from 'react'; 
 import './App.css';
 import SearchBar from './components/SearchBar';
