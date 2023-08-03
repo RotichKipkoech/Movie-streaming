@@ -7,3 +7,8 @@ function MovieReview() {
     // Function to handle form submission
     const handleSubmit = (event) => {
     event.preventDefault();
+        
+    // Adding the current form data to the newData array using the spread operator
+    setNewData([...newData, formData]);
+    setFormData({ username: "", review: "" }); // Clear form inputs after submission
+  }
