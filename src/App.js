@@ -1,4 +1,8 @@
 
+import React from 'react'; 
+import './App.css';
+import SearchBar from './components/SearchBar';
+
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AppRouter from './components/AppRouter';
@@ -11,8 +15,14 @@ import TopRatedMovies from './TopRated'
 import "./App.css"
 
 
+
 const App = () => {
   return (
+
+    <div className="App">
+      <SearchBar/>
+    </div>
+
 
     <Router>
       <div>
@@ -20,6 +30,7 @@ const App = () => {
         <AppRouter />
       </div>
     </Router>
+
   );
 };
     <div>
