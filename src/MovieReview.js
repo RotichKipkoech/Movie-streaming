@@ -24,4 +24,6 @@ function MovieReview() {
         
         <div className="form-group">
           <label htmlFor="review">Review:</label>
-          {/* Input field for review with onChange event to update the review in formData */}
+            {/* Input field for review with onChange event to update the review in formData */}
+         <textarea id="review" name="review" value={formData.review} onChange={(e) => setFormData({ ...formData, review: e.target.value })} />
+        </div>
