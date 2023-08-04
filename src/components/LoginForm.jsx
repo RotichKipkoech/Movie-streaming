@@ -1,8 +1,8 @@
-// LoginForm.jsx
 import React, { useState } from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../firebase';
 import { useNavigate } from 'react-router-dom';
+import './formStyles.css';
 
 const LoginForm = () => {
   const [email, setEmail] = useState('');

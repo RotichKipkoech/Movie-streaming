@@ -1,6 +1,6 @@
-// TopRatedMovies.js
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import "./display.css";
 
 function TopRatedMovies() {
     const [topRated, setTopRated] = useState([]);
@@ -16,18 +16,15 @@ function TopRatedMovies() {
         <div>
             <h2>Top Rated Movies</h2>
             <div className="movies-container">
-                <div className='movies-scroll-container'>
-                    {topRated.map((movie) => (
-                        <Link to={`/movie/${movie.id}`} key={movie.id} className="movie-card">
-                            <img src={`https://image.tmdb.org/t/p/w780/${movie.poster_path}`} alt={movie.original_title} />
-                            <h3>{movie.original_title}</h3>
-                        </Link>
-                    ))}
-                </div>
+                {topRated.map((movie) => (
+                    <Link to={`/movie/${movie.id}`} key={movie.id} className="movie-card">
+                        <img src={`https://image.tmdb.org/t/p/w780/${movie.poster_path}`} alt={movie.original_title} />
+                        <h3>{movie.original_title}</h3>
+                    </Link>
+                ))}
             </div>
         </div>
     );
 }
 
 export default TopRatedMovies;
-
