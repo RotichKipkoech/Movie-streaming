@@ -1,8 +1,8 @@
 ## Project Name
-### Movie Store
+### STREAMING-SASA
 
 # Description
-The Movie App is a collaborative web application created by KENEDY ROTICH, LIONEL KASEMBELI, SASHA WANGUI, MARK KIMANI, ANITA MUTEMI, and JOHN MAKATETO. The app allows users to browse and discover information about various movies. Users can view a list of available movies, access detailed information about each movie, leave ratings and reviews, add movies to their watchlist, and search for movies based on title or genre.
+The Streaming-Sasa is a collaborative web application created by KENEDY ROTICH, LIONEL KASEMBELI, SASHA WANGUI, MARK KIMANI, ANITA MUTEMI, and JOHN MAKATETO. The app allows users to browse and discover information about various movies. Users can view a list of available movies, access detailed information about each movie, leave ratings and reviews, add movies to their watchlist, and search for movies based on title or genre.
 
 ## Table of Contents
 
@@ -68,7 +68,7 @@ sql
 
 ## Contributing
 
-Contributions to the Movie App are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
+Contributions to the Streaming-Sasa are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
 
 ## License
 
