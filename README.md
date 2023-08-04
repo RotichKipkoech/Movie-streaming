@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+## Project Name
+### STREAMING-SASA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+The Streaming-Sasa is a collaborative web application created by KENEDY ROTICH, LIONEL KASEMBELI, SASHA WANGUI, MARK KIMANI, ANITA MUTEMI, and JOHN MAKATETO. The app allows users to browse and discover information about various movies. Users can view a list of available movies, access detailed information about each movie, leave ratings and reviews, add movies to their watchlist, and search for movies based on title or genre.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+    * Features
+    * Technologies Used
+    * Getting Started
+    * Installation
+    * Dependencies
+    * Usage
+    * Contributing
+    * License
+# Features
 
-### `npm start`
+    * Movie Listing: Users can see a grid of available movies with movie posters, titles, genres, and release dates.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    * Movie Details: Clicking on a movie from the list shows a detailed page with information about the selected movie, including synopsis, cast, rating, and user reviews.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    * User Rating and Reviews: Users can rate and leave reviews for movies, and the app displays the average rating and individual reviews.
 
-### `npm test`
+    * Search and Filters: Users can search for movies by title or genre and apply filters to sort movies based on various criteria like genre, release year, and rating.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    * Watchlist: Users can add movies to their watchlist for later viewing and manage their watchlist.
 
-### `npm run build`
+# Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    * React: A JavaScript library for building user interfaces.
+    * React Router: For handling client-side routing and navigation.
+    * Axios: To make HTTP requests to the OMDB API for fetching movie data.
+    * OMDB API: A free public API to access movie information.
+    * HTML5 & CSS3: For structuring and styling the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Installation and Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   * Clone the repository or download the ZIP file.
 
-### `npm run eject`
+   * Navigate to the project folder in your terminal.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   * Install the project dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+        * npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Obtain an API key from the OMDB API website: OMDB API
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Create a new file named .env in the root directory of the project and add your OMDB API key to it:
 
-## Learn More
+        * makefile
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+REACT_APP_OMDB_API_KEY=YOUR_OMDB_API_KEY
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start the development server:
 
-### Code Splitting
+sql
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+        * npm start
 
-### Analyzing the Bundle Size
+    Open your browser and visit http://localhost:3000 to see the Movie App.
+## Demo Images
+![Screenshot from 2023-08-04 05-02-48](https://github.com/RotichKipkoech/Bot-Robot/assets/132645931/03fce433-2ba4-40a0-a348-f2c47645670c)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Screenshot from 2023-08-04 05-01-57](https://github.com/RotichKipkoech/Bot-Robot/assets/132645931/675e3ff4-6a44-4cbe-9763-1e421cdb05fa)
 
-### Making a Progressive Web App
+![Screenshot from 2023-08-04 05-02-15](https://github.com/RotichKipkoech/Bot-Robot/assets/132645931/62c72ab3-97ad-4e20-9a6b-c3574bdbaf77)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions to the Streaming-Sasa are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Copyright (c) 2023 KENEDY ROTICH, LIONEL KASEMBELI, SASHA WANGUI, MARK KIMANI, ANITA MUTEMI, and JOHN MAKATETO.
 
-### `npm run build` fails to minify
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
