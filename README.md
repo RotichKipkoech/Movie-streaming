@@ -1,6 +1,9 @@
 ## Project Name
 ### STREAMING-SASA
 
+## LIVE LINK
+https://movie-streaming-liveprod.onrender.com/
+
 # Description
 The Streaming-Sasa is a collaborative web application created by KENEDY ROTICH, LIONEL KASEMBELI, SASHA WANGUI, MARK KIMANI, ANITA MUTEMI, and JOHN MAKATETO. The app allows users to browse and discover information about various movies. Users can view a list of available movies, access detailed information about each movie, leave ratings and reviews, add movies to their watchlist, and search for movies based on title or genre.
 
